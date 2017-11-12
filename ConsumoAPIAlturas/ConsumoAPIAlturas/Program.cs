@@ -23,7 +23,7 @@ namespace ConsumoAPIAlturas
             if (response.StatusCode == HttpStatusCode.OK)
                 Console.WriteLine(response.Content.ReadAsStringAsync().Result);
             else
-                Console.WriteLine("Token provavelemnte expirado!");
+                Console.WriteLine("Token provavelmente expirado!");
 
             Console.ReadKey();
         }
